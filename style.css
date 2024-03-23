@@ -1,0 +1,182 @@
+body {
+    margin: auto;
+    font-family: Arial, Times, serif;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    text-transform: uppercase;
+    color: rgb(189, 7, 7);
+
+}
+
+nav,
+footer {
+    background-color: #DAA06D;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+nav a,
+footer a {
+    color: black;
+}
+
+nav{
+    text-align: center;
+}
+
+nav li {
+    background-color: white;
+    display: inline-block;
+    font-size: small;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+nav li > a {
+    padding: 10px 20px;
+}
+
+nav ul {
+    padding: 10px;
+}
+
+nav li > a:hover {
+    text-decoration: none;
+    background-color: #DAA06D;
+}
+
+a {
+    font-weight: bold;
+    color: #DAA06D;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#homeheading {
+    background-image: url(images/pet.jpg);
+    background-repeat: no-repeat;
+    background-size: 1360px;
+    height: 1000px;
+    width: 1300px;
+
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+th {
+    color: #DAA06D;
+}
+
+h1 {
+    text-align: center;
+}
+
+#homeheading {
+    color: black;
+}
+
+.products {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 20px;
+    width: 250;
+    height: 250;
+}
+
+#form {
+    text-align: center;
+}
+
+
+.fish {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 20px;
+    width: 250;
+    height: 250;
+}
+
+.smallanimals {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 20px;
+    width: 250;
+    height: 250;
+}
+
+#ff {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+}
+
+
+.error{
+    color:red;
+    font-size:1rem;
+}
+
+.registration-form{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    margin: 20px auto;
+  }
+.registration-form button{
+    padding: 10px 20px;
+    background-color: #fb5234;
+    border: none;
+    color: white;
+    }
+    
+.registration-form button:hover{
+     background-color: #555;
+}
+
+.registration-form input{
+    padding: 10px 20px;
+    background-color: #b0b0b0;
+    border: none;
+    width: 250px;
+   }
+
+   .registration-form textarea{
+    padding: 10px 20px;
+    background-color: #b0b0b0;
+    border: none;
+    width: 250px;
+   }
+   
